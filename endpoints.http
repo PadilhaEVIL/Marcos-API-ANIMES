@@ -1,0 +1,29 @@
+#PARA UTILIZAR ESSES ENDPOINTS É NECESSÁRIO INSTALAR A EXTENSÃO DO VSCODE "REST CLIENT"
+###
+
+GET http://localhost:3333/animes
+
+###
+
+POST http://localhost:3333/animes
+Content-Type: application/json
+
+{
+    "name": "Jujutsu Kaisen",
+    "autor": "Gege Akutami"
+}
+
+###
+
+PUT http://localhost:3333/animes/d498a27d-3457-4417-92dc-c4d8b754f568
+Content-Type: application/json
+
+{
+    "name": "Naruto",
+    "autor": "Mashi Kishimoto"
+}
+
+###
+
+DELETE http://localhost:3333/animes/ed2e9102-91ee-49de-b749-4713cc10bdba
+Content-Type: application/json
